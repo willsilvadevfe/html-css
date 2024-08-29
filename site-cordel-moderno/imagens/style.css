@@ -1,0 +1,40 @@
+/* fontes Sriracha paragrafos & Eastman Header */
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@font-face {
+    font-family: 'Eastman';
+    src: url('Eastman.otf') format('opentype');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 280px;
+    
+}
+
+header > h1 {
+    font-family: 'Eastman', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:7em;
+    height: 10px;
+    color: white;
+    padding-top: 20px;
+    
+}
+
+header > p {
+    margin-top: 0px;
+    padding-bottom: 20px;
+    color: white;
+    margin-bottom: 40px;
+}

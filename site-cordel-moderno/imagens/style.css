@@ -25,7 +25,7 @@ header {
 header > h1 {
     font-family: 'Eastman', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size:7em;
+    font-size:8em;
     height: 10px;
     color: white;
     padding-top: 20px;
@@ -35,6 +35,49 @@ header > h1 {
 header > p {
     margin-top: 0px;
     padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
     color: white;
     margin-bottom: 40px;
+    
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+main > p {
+    font-family: 'Sriracha', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.3em;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.abelha {
+    background-image: url(background001.jpg);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.cartas {
+    background-image: url(background002.jpg);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 0.5px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

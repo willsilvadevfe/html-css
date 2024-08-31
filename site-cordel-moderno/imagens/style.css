@@ -66,6 +66,7 @@ main > p {
     padding-top: 30px;
     padding-bottom: 30px;
     
+    
 }
 
 .cartas {
@@ -78,6 +79,17 @@ footer {
     color: white;
     padding: 0.5px 0px;
     text-align: center;
+    margin-top: 90px;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+footer p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+

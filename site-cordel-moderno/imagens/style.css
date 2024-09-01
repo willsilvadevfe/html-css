@@ -52,7 +52,7 @@ header > p > a:hover {
     text-decoration: underline;
 }
 
-main > p {
+main > section > p {
     font-family: 'Sriracha', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3.3em;
     padding-left: 40px;
@@ -66,8 +66,10 @@ main > p {
     padding-top: 30px;
     padding-bottom: 30px;
     
-    
 }
+ 
+
+
 
 .cartas {
     background-image: url(background002.jpg);

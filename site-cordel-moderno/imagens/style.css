@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* fontes Sriracha paragrafos & Eastman Header */
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
@@ -62,18 +64,16 @@ main > section > p {
 
 .abelha {
     background-image: url(background001.jpg);
+    background-size: cover;
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
-    
 }
  
-
-
-
 .cartas {
     background-image: url(background002.jpg);
-    color: white;
+    color: rgba(0, 0, 0, 0.836);
+    padding-top: 50px;
 }
 
 footer {
@@ -94,4 +94,100 @@ footer p a {
 footer p a:hover {
     text-decoration: underline;
 }
+
+/* MEDIA SCREEN - RESPONSIVIDADE VIEWPORT */
+
+@media screen and (max-width: 1000px) {
+    header > h1 {
+        font-size: 7em;
+    }
+
+    main > section > p {
+        font-size: 3em;
+    }
+
+    .abelha {
+        background-size: cover;
+        opacity: 1;
+    }
+
+    .cartas {
+        background-size: cover;
+        opacity: 1;
+        
+    }
+}
+
+@media screen and (max-width: 850px) {
+    header > h1 {
+        font-size: 6em;
+    }
+
+    main > section > p {
+        font-size: 2.5em;
+    }
+
+    .abelha {
+        background-size: cover;
+        opacity: 0.95;
+    }
+
+    .cartas {
+        background-size: cover;
+        opacity: 0.95;
+        
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header > h1 {
+        font-size: 5em;
+    }
+
+    main > section > p {
+        font-size: 2em;
+    }
+
+    .abelha {
+        background-size: cover;
+        opacity: 0.9;
+    }
+
+    .cartas {
+        background-size: cover;
+        opacity: 0.9;
+       
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header > h1 {
+        font-size: 3.5em;
+    }
+
+    header > p {
+        font-size: 12px;
+    }
+
+    main > section > p {
+        font-size: 1.5em;
+    }
+
+    .abelha {
+        background-size: cover;
+        opacity: 0.85;
+    }
+
+    .cartas {
+        background-size: cover;
+        opacity: 0.85;
+        
+    }
+
+    footer > p {
+        font-size: 0.9em;
+    }
+}
+
+
 

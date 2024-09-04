@@ -69,12 +69,15 @@ main > section > p {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 20px;
+    
 }
 
 main > .abelha > p {
     background-color: rgba(0, 0, 0, 0.322);
     width: 700px;
+    padding: 10px;
     border-radius: 20px;
+    text-shadow: 4px 4px 10px black;
 }
  
 .cartas {
@@ -83,13 +86,15 @@ main > .abelha > p {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 20px;
+    
 }
 
 main > .cartas > p {
     background-color: rgba(0, 0, 0, 0.322);
     width: 700px;
+    padding: 10px;
+    text-shadow: 4px 4px 10px black;
     border-radius: 20px;
-    padding-top: 20px;
 }
 
 footer {
@@ -125,11 +130,13 @@ footer p a:hover {
     .abelha {
         background-size: cover;
         opacity: 1;
+        
     }
 
     .cartas {
         background-size: cover;
         opacity: 1;
+        
         
     }
 }
@@ -146,11 +153,13 @@ footer p a:hover {
     .abelha {
         background-size: cover;
         opacity: 0.95;
+        
     }
 
     .cartas {
         background-size: cover;
         opacity: 0.95;
+        
         
     }
 
@@ -175,11 +184,13 @@ footer p a:hover {
     .abelha {
         background-size: cover;
         opacity: 0.9;
+        
     }
 
     .cartas {
         background-size: cover;
         opacity: 0.9;
+        
        
     }
 
@@ -207,17 +218,18 @@ footer p a:hover {
 
     .abelha {
         background-size: cover;
-        opacity: 0.85;
+        
+        
     }
 
     .cartas {
         background-size: cover;
-        opacity: 0.85;
-        
+        background-position: right center;
     }
 
     main > .abelha > p {
         width: 300px;
+        
     }
 
     main > .cartas > p {

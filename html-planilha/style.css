@@ -4,13 +4,6 @@
     margin: 0px;
     padding: 0px;
 }
-
-body{
-    
-    
-}
-
-
 table {
     display: flex;
     justify-content: center;
@@ -19,11 +12,6 @@ table {
     margin: auto;
     
 }
-
-tr{
-   
-}
-
 td {
     border: 1px solid black;
     padding: 20px;

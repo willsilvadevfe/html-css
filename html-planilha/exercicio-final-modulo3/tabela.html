@@ -7,39 +7,41 @@
     <title>Exercicio final Módulo 3</title>
 </head>
 <body>
+    <h1>Exercicio tabela - HTML5 e CSS3 (Fim do modulo 03)</h1>
+    <h2>Professor Gustavo Guanabara (Curso em Video)</h2>
     <table>
         <thead>
             <th rowspan="2">Área</th>
-            <th rowspan="2">Disciplinas</th>
-            <th colspan="2">Notas</th>
-            <th rowspan="2">Média</th>
+            <th rowspan="2" scope="colgroup">Disciplinas</th>
+            <th colspan="2" scope="colgroup">Notas</th>
+            <th rowspan="2" scope="colgroup">Média</th>
         <tr class="notas">
-            <th>Nota 1</th>
-            <th>Nota 2</th>
+            <th scope="colgroup">Nota 1</th>
+            <th scope="colgroup">Nota 2</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <th rowspan="4">Exatas</th>
-            <td>Matemática</td>
+            <th rowspan="4" scope="rowgroup">Exatas</th>
+            <td class="materia">Matemática</td>
             <td class="nota">0.00</td>
             <td class="nota">0.00</td>
             <td class="nota">0.00</td>
         </tr>
         <tr>
-            <td>Física</td>
+            <td class="materia">Física</td>
             <td class="nota">0.00</td>
             <td class="nota">0.00</td>
             <td class="nota">0.00</td>
         </tr>
         <tr>
-            <td>Química</td>
+            <td class="materia">Química</td>
             <td class="nota">0.00</td>
             <td class="nota">0.00</td>
             <td class="nota">0.00</td>
         </tr>
         <tr>
-            <td>Biologia</td>
+            <td class="materia">Biologia</td>
             <td class="nota">0.00</td>
             <td class="nota">0.00</td>
             <td class="nota">0.00</td>
@@ -48,14 +50,14 @@
             <td colspan="5" class="exahum">Médias Exatas</td>
         </tr>
         <tr>
-            <th rowspan="2">Humanas</th>
-            <td>História</td>
+            <th rowspan="2" scope="rowgroup">Humanas</th>
+            <td class="materia">História</td>
             <td class="nota">0.00</td>
             <td class="nota">0.00</td>
             <td class="nota">0.00</td>
         </tr>
         <tr>
-            <td>Geografia</td>
+            <td class="materia">Geografia</td>
             <td class="nota">0.00</td>
             <td class="nota">0.00</td>
             <td class="nota">0.00</td>

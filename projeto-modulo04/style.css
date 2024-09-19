@@ -42,13 +42,15 @@ a {
     padding: 20px;
 }
 
-iframe{
+.frame{
     position: absolute;
+    display: block;
     top: 125px;
+    left: 38.5%;
     height: 480px;
     width: 290px;
     z-index: 1;
-    
+    border-radius: 20px;
     
 }
 

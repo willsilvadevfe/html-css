@@ -11,6 +11,7 @@ body{
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -24,10 +25,31 @@ body{
     height: 627px;
 }
 
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
 .frame{
     position: relative;
     top: 80px;
     left: 22px;
     height: 471px;
     width: 269px;
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    
+}
+
+.icones > a > img{
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 30px;
+    
+    
 }

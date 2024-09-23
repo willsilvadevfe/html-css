@@ -26,8 +26,16 @@ body{
 }
 
 .container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     width: 100vw;
     height: 100vh;
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
 }
 
 .frame{
@@ -38,23 +46,17 @@ body{
     width: 269px;
 }
 
-.icones{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-
-    
-}
 
 .icones > a > img{
-
     margin-right: 30px;
     margin-top: 30px;
     border-radius: 50%;
     width: 80px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.637);
+    box-sizing: border-box;
 }
 
-.icones:hover{
-    opacity: 0.5;
+.icones a img:hover{
+    border: 3px solid white;
+    transition: 0.5s;
 }

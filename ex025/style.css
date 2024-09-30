@@ -1,0 +1,33 @@
+
+fieldset{
+    
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+p > input{
+    padding: 5px;
+}
+
+.botoes{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: block;
+    width: 100vw;
+    height: 14vh;
+    background-color: rgba(100, 97, 97, 0.582);
+}
+
+header > ul > li{
+    display: inline-block;
+    padding-right: 10px;
+    
+    
+}
+
+header > ul > li > a{
+    text-decoration: none;
+    background-color: rgb(75, 74, 74);
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+
+header h1{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    
+}

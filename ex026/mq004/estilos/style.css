@@ -16,7 +16,8 @@ body, html{
 }
 
 body{
-    background-color: black url(../imagens/back-phone.jpg) no-repeat;
+    background-color: url(../imagens/back-phone.jpg) no-repeat;
+    background-position: left center;
 }
 
 main{
@@ -27,8 +28,3 @@ main{
     padding: 10px;
 }
 
-img#smarth{display: none;}
-img#tablet{display: none;}
-img#print{display: none;}
-img#desktop{display: none;}
-img#tv{display: none;}

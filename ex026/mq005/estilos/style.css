@@ -16,8 +16,6 @@ header{
 header > ul > li{
     display: inline-block;
     padding-right: 10px;
-    
-    
 }
 
 header > ul > li > a{
@@ -53,5 +51,31 @@ main p{
     margin: auto;
     width: 900px;
     text-align: justify;
+    
+}
+
+@media screen and (max-width: 600px) {
+    main > p{
+        width: 400px;
+        font-size: 0.9em;
+    }
+
+    main > h2{
+        width: 400px;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    header{
+        font-size: 0.9em;
+        width: 483px;
+        height: 13.3vh;
+    }
+
+    header > ul > li{
+        display: inline-block;
+        margin: auto;
+        padding-right: 8px;
+    }
     
 }

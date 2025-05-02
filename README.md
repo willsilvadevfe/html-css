@@ -1,5 +1,16 @@
-👋 Olá, seja muito bem vindo ao meu perfil no Github!
+🎯 Sobre mim
+Atualmente atuo como Inspetor de Qualidade, onde desenvolvi um olhar crítico, atenção aos detalhes e compromisso com a excelência — qualidades que levo comigo na transição para a área de tecnologia.
 
-Meu nome é Willian Silva, sou um estudante da área de tecnologia, atualmente estou cursando analise e desenvolvimento de sistemas e me especializando na área de front end. Meu objetivo final é adquitir conhecimento para  tornar-se um desenvolvedor web full-stack.
+💻 Transição para o Desenvolvimento Web
+Sou estudante de Análise e Desenvolvimento de Sistemas na Estácio, e tenho me dedicado ao aprendizado de tecnologias como HTML, CSS, JavaScript, ReactJS e Bootstrap. Estou em constante evolução, construindo projetos práticos que unem teoria e aplicação real, com o objetivo de atuar como desenvolvedor front-end no futuro próximo.
 
-Instagram: @wvrsilva
+🚀 Objetivo
+Busco oportunidades para crescer como desenvolvedor web, contribuindo com soluções criativas, código limpo e aprendizado contínuo em ambientes colaborativos.
+
+📚 Atualmente estudando:
+
+HTML5 & CSS3
+JavaScript
+ReactJS
+Bootstrap
+Git e GitHub

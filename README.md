@@ -7,7 +7,6 @@ Busco oportunidades para crescer como desenvolvedor web, contribuindo com soluç
 
 📚 Atualmente estudando:
 
-HTML5, CSS3,
 JavaScript,
 ReactJS,
 Bootstrap,

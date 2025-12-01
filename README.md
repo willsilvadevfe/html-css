@@ -1,13 +1,13 @@
+🧠 Repositório de Estudos — HTML & CSS
 
-Atualmente atuo como Inspetor de Qualidade, onde desenvolvi um olhar crítico, atenção aos detalhes e compromisso com a excelência, qualidades que levo comigo na transição para a área de tecnologia.
+Este repositório reúne meus projetos e exercícios práticos durante o aprimoramento das minhas habilidades em desenvolvimento front-end.
+Aqui aplico as ferramentas HTML e CSS, focado em boas práticas, responsividade e organização de código.
 
-Sou estudante de Análise e Desenvolvimento de Sistemas na Estácio, e tenho me dedicado ao aprendizado de tecnologias como HTML, CSS, JavaScript, ReactJS e Bootstrap. Estou em constante evolução, construindo projetos práticos que unem teoria e aplicação real, com o objetivo de atuar como desenvolvedor front-end no futuro próximo.
+🔧 Tecnologias & conceitos abordados
 
-Busco oportunidades para crescer como desenvolvedor web, contribuindo com soluções criativas, código limpo e aprendizado contínuo em ambientes colaborativos.
-
-📚 Atualmente estudando:
-
-JavaScript,
-ReactJS,
-Bootstrap,
-Git e GitHub.
+Flexbox (posicionamento e distribuição de elementos)
+CSS Grid Layout (layouts complexos e responsivos)
+Media Queries (design adaptável para telas diversas)
+Frameworks CSS (ex: Bootstrap e bibliotecas)
+Boas práticas de CSS (BEM, modularização, reutilização de estilos)
+Componentização e layout escalável
